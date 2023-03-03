@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SmokeSuite" parallel="tests" thread-count="2">
+	<test name="ParallelTest 1">
+		<classes>
+			<class name="tests.TestWebsite" />
+		</classes>
+	</test>
+	
+	<test name="ParallelTest 2">
+		<classes>
+			<class name="tests.TestHomePage" />
+		</classes>
+	</test>
+</suite>
